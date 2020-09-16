@@ -23,5 +23,19 @@ void wifi_task(void *pvParameters);
 
 #endif
 ```
+### Console output
+After running `make flash monitor` the software should build, binary should be flashed the device and the app should print some info. After the bootloader messages this should be shown:
 
+```
 
+Hardware IO task started.
+Wifi task started.
+Server waiting for network conniection.
+Got ip: 192.168.8.142 
+Wifi connected to ap SSID: 'Wifi Name'
+Server starting.
+Socket ready.
+Waiting for data
+
+```
+This shows, that all the tasks have started, the Wifi is properly configured and is connected. The UDP server waits for the wifi, then starts listening for incomming messages on port `3333`. At this moment the device should be discoverable and controllable by the mobile app.
