@@ -10,6 +10,7 @@ The application consists of four main parts contained in the four 'c' files:
 
 ### Wifi credentials
 In order to protect pirvacy the wifi.h file has been removed, but one might implement it like this:
+
 '''C
 #ifndef WIFI_H
 #define WIFI_H
