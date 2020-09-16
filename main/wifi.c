@@ -11,8 +11,7 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
-#define EXAMPLE_ESP_WIFI_SSID      "W dziwnym domu v2"
-#define EXAMPLE_ESP_WIFI_PASS      "Adolf jest krolem"
+
 #define EXAMPLE_ESP_MAXIMUM_RETRY  5
 
 volatile int connected = 0;
