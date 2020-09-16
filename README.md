@@ -1,4 +1,4 @@
-# WiFi station example
+# WiFi LED Controller
 
 This repository harbours code for the ESP32 in the lighting ontroller. It is configured to be built with the [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/).
 
